@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "name": "Remix: debug server-side",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev"
+    }
+  ]
+}
