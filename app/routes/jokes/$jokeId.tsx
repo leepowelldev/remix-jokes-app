@@ -131,6 +131,9 @@ export function CatchBoundary() {
         </div>
       );
     }
+    case 418: {
+      return <div className="error-container">You're a little teapot?</div>;
+    }
     default: {
       throw new Error(`Unhandled error: ${caught.status}`);
     }
