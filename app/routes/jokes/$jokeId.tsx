@@ -63,6 +63,7 @@ export const loader: LoaderFunction = async ({
 type ActionData = {};
 
 export const action: ActionFunction = async ({ request, params }) => {
+  // Testing to see if the CatchBoundary works as expected...
   throw new Response('Should my CatchBoundary catch this?', { status: 418 });
 
   const formData = await request.formData();
